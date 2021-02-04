@@ -27,7 +27,7 @@ namespace PrintService.Api.Workers
             {
                 var task = await _scheduledTasks.GetNext();
                 if (task == null
-                    // Needs to be changed to UTC
+                    // TODO: change to UTC
                     || DateTime.Now < task.PrintAt)
                 {
                     // Sleep for 100 milliseconds when no items in sequence or items are not ready to be printed.
