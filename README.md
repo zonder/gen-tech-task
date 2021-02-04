@@ -8,6 +8,13 @@ This is a web api for printing message to the server console at the given time.
 + Swagger
 + Automapper
 
+## API
+[Swagger](https://swagger.io/) tool is used for api documentation. It provides UI where developers can see all available web methods, their description and even run queries against api.
+
+For local environment, you can access it by the following link: http://localhost:8089/api/swagger/index.html
+
+![](/docs/swagger_api.png)
+
 # How to run on local environment
 Prerequisites:
 + Docker
