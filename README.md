@@ -11,9 +11,11 @@ This is a web api for printing message to the server console at the given time.
 ## API
 [Swagger](https://swagger.io/) tool is used for api documentation. It provides UI where developers can see all available web methods, their description and even run queries against api.
 
-For local environment, you can access it by the following link: http://localhost:8089/api/swagger/index.html
+For local environment, you can access it by the following link: http://localhost:8089/swagger/index.html
 
-![](/docs/swagger_api.png)
+Example:
+Print at: 2021-02-05T00:00:00
+Message: "any text"
 
 # How to run on local environment
 Prerequisites:
