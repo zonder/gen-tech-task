@@ -43,6 +43,7 @@ namespace PrintService.Api.Workers
                     await _scheduledTasks.Remove(task);
                     await _tasksToPrint.Push(task);
 
+                    //TODO: in case of failure we need to cleanup outdated locks
                     await _lockRegistry.ReleaseLock(key);
                 }
 
