@@ -17,6 +17,9 @@ Example:
 Print at: 2021-02-05T00:00:00
 Message: "any text"
 
+**Note: specify time in server time zone which is displayed when server is started**
+
+
 # How to run on local environment
 Prerequisites:
 + Docker
