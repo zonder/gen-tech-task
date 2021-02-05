@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +11,7 @@ namespace PrintService
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine(DateTime.Now);
             CreateHostBuilder(args).Build().Run();
         }
 
